@@ -17,7 +17,7 @@ node scripts/aita.mjs status
 
 返回 `CONFIGURED` 就直接进入下面的流程。返回 `NOT_CONFIGURED` 时，先帮用户完成配置，再继续用户原本的请求：
 
-1. **向用户要 API Key**：请用户打开 AITA MCP 服务页 `https://aita.gai.cn/datapan/mcp` ，生成并复制 API Key。
+1. **向用户要 API Key**：请用户打开 [AITA MCP 服务页](https://aita.gai.cn/datapan/mcp) ，生成并复制 API Key。
 2. **确认要不要同时连上 AITA MCP**：如果你知道当前平台的 MCP 配置文件位置（`mcpServers` 格式的 JSON 文件），告诉用户会把 AITA 写进去，征得同意；不知道就跳过这一步，不要猜路径。
 3. **运行 setup**：
 
